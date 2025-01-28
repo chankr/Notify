@@ -1,4 +1,4 @@
-name: Feature request
+name: Feature request2
 description: ユーザーのための新機能や改善の提案
 body:
   - type: textarea
