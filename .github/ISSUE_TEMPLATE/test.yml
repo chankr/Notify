@@ -40,9 +40,8 @@ body:
   - type: textarea
     id: scopeDescription
     attributes:
-      label: 影響範囲
+      label: "## 影響範囲"
       value: |
-        ## 影響範囲
         各 Team の担当者にて Sub Issue を作成してください。
         Sub Issue の作成後 または 作成不要と判断した場合、
         以下の CheckBox を Check 状態に更新してください。
