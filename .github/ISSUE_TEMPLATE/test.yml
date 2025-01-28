@@ -37,6 +37,13 @@ body:
       label: Source URL
       description: 要望元の情報が記述されている URL を貼り付けてください。
       render: markdown
+  - type: markdown
+    attributes:
+      value: |
+        ## 影響範囲
+        各 Team の担当者にて Sub Issue を作成してください。
+        Sub Issue の作成後 または 作成不要と判断した場合、
+        以下の CheckBox を Check 状態に更新してください。
   - type: checkboxes
     id: scope
     attributes:
