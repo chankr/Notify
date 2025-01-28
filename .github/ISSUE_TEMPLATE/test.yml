@@ -1,0 +1,48 @@
+name: Feature request
+description: ユーザーのための新機能や改善の提案
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 機能の説明
+      description: 提案する機能について詳しく説明してください。
+      placeholder: e.g. ユーザーがログイン後にダッシュボード画面に遷移するようにする。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決する問題
+      description: この機能が解決する問題や、機能の必要性について説明してください。
+      placeholder: e.g. ユーザーがログイン後に遷移する画面がないため、アプリケーションの使い勝手が悪い。
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 解決策
+      description: 問題をどのように解決するのか、提案する機能の詳細を説明してください。
+      placeholder: e.g. ログイン後にダッシュボード画面に遷移するようにする。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 代替案
+      description: 検討した代替案や現在の解決策があれば説明してください。
+      placeholder: e.g. ログイン後にダッシュボード画面に遷移する代わりに、ログイン後にホーム画面に遷移する。そして、ユーザーがダッシュボード画面に遷移するためのリンクを表示する。
+  - type: textarea
+    id: source
+    attributes:
+      label: Source URL
+      description: 要望元の情報が記述されている URL を貼り付けてください。
+      render: markdown
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: 影響範囲
+      description: この機能提案が影響する範囲を選択してください。
+      options:
+        - label: a
+        - label: b
+        - label: c
