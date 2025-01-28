@@ -41,6 +41,8 @@ body:
     id: scopeDescription
     attributes:
       label: _
+      description: |
+        :warning: 編集しないでください。
       value: |
         ## 影響範囲
         各 Team の担当者にて Sub Issue を作成してください。
