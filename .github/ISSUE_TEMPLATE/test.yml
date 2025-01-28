@@ -37,8 +37,10 @@ body:
       label: Source URL
       description: 要望元の情報が記述されている URL を貼り付けてください。
       render: markdown
-  - type: markdown
+  - type: textarea
+    id: scopeDescription
     attributes:
+      label: 影響範囲
       value: |
         ## 影響範囲
         各 Team の担当者にて Sub Issue を作成してください。
